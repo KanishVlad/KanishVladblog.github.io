@@ -1,4 +1,3 @@
-
 var visitorName = localStorage.getItem("visitorName") || "Гість";
 document.getElementById("name-visitor").innerHTML = "Привіт, " + visitorName + "!";
 
@@ -21,11 +20,11 @@ function calculateFactorial() {
     if (outputType === "alert") {
       alert(`Факторіал ${number} дорівнює ${factorial}.`);
     } else if (outputType === "new-window") {
-      window.open(`factorial.html?number=${number}&factorial=${factorial}`);
+      const newWindow = window.open( 'factorial.html', 'resizable,height=500,width=600');
+         newWindow.document.write(`<p>Факторіал ${number} = ${factorial}</p>`);
     } else {
       const resultElement = document.createElement("p");
       resultElement.textContent = `Факторіал ${number} дорівнює ${factorial}.`;
       document.getElementById("answer").innerHTML = resultElement.textContent  ;
     }
   }
-
