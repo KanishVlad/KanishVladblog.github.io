@@ -1,0 +1,192 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.09px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    
+}
+
+.header{
+    background-color: #281010;
+    padding: 31px 0 32px;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 400;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 74px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    gap: 79px; 
+}
+
+.name-visitor{
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.img-text{
+    background-image: url(../images/Rectangle\ 4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    max-height: 880px;
+}
+
+.text-item{
+    padding-top: 50px;
+    margin: 0;
+    
+}
+
+.text-items{
+    padding-top: 640px;
+    padding-bottom: 25px;
+    margin: 0;  
+}
+
+.aboutme{
+    background-color: #281010;
+}
+
+.aboutme-title{
+    margin: 0;
+    padding: 99px 0 100px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.41px;
+}
+
+.aboutme-content{
+    display: flex;
+    padding-bottom: 112px;
+}
+
+.aboutme-text{
+    margin: 0;
+    font-size: 24px;
+    line-height: 29.05px;
+    padding-right: 250px;
+    max-width: 480px;
+    text-align: justify;
+}
+.aboutme-img{
+    border-radius: 35px;
+   
+}
+
+.work{
+    background-color: #F2F4F6;
+    margin: 0;
+}
+
+.work-title{
+    color: #281010;
+    margin: 0;
+    padding: 116px 0 72px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48.41px;
+}
+
+.work-text{
+    color: #281010;
+    margin: 0;
+    padding-bottom: 104px;
+    text-align: justify;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+footer{
+    background-color: #281010;
+    
+}
+
+.footer-menu{
+    padding: 3px 0 58px;
+}
+
+.footer-menu-list{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    justify-items: center;
+    
+}
+
+.footer-item{
+    padding-top: 53px;
+}
+
+.footer-menu-link{
+    font-family: Jura;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47.32px;
+    
+}
+
+.math{
+    background-color: #F2F4F6;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    color:black;
+}
+
+.form-factorial{
+    padding: 120px 0 354px;
+}
+
+.inter{
+    padding-left: 44px;
+}
+
+.form-btn{
+    width: 300px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: #281010;
+    color: #F2F4F6;
+}
+
