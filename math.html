@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розрахунок</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a class="menu-link"href="index.html">Головна</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link"href="#">Зображення</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link"href="#">Форма</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link"href="#">База даних</a>
+                    </li>
+                </ul>
+                <span id="name-visitor"></span>
+            </nav>
+        </div>
+    </header>
+    <section class="math">
+        <div class="container">
+            <form class="form-factorial">
+                <label for="number">Введіть число:</label></br></br>
+                <input type="number" id="number" name="number">
+                <br><br>
+                <input type="radio" id="alert" name="output" value="alert" checked>
+                <label class="inter" for="alert">Вивести в alert</label>
+                <br>
+                <input type="radio" id="new-window" name="output" value="new-window">
+                <label class="inter" for="new-window">Вивести в новому вікні</label>
+                <br>
+                <input type="radio" id="same-page" name="output" value="same-page">
+                <label class="inter" for="same-page">Вивести на цій сторінці</label>
+                <br>
+                <br>
+                <span id="answer" class="answer"></span>
+                <br><br>
+                <button class="form-btn" type="button" onclick="calculateFactorial()">Розрахувати факторіал</button>
+              </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-menu">
+                <ul class="footer-menu-list">
+                    <li class="footer-item">
+                        <a  class="footer-menu-link" href="#">Про автора</a>
+                    </li>
+                    <li class="footer-item">
+                        <a  class="footer-menu-link" href="#">Kanish.Vlad</a>
+                    </li>
+                    <li class="footer-item">
+                        <a  class="footer-menu-link" href="#">Політика конфіденціальності</a>
+                    </li>
+                    <li class="footer-item">
+                        <a  class="footer-menu-link" href="#">ДДМА</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/2.js"></script>
+</body>
+</html>
